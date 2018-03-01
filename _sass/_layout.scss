@@ -670,17 +670,20 @@ audio {
     }
     li {
         margin-bottom: 15px;
-       }
+        //padding: 1em;
+    }
 }
 
 
 .ariel {
     color: $ariel-text-color;
     background-color: $ariel-color;
+    padding: 0.5em;
 }
 .claudia {
     color: $claudia-text-color;
     background-color: $claudia-color;
+    padding: 0.5em;
 }
 .rita {
     color: $rita-text-color;
@@ -689,5 +692,5 @@ audio {
     }
     //background-color: darken($rita-color, 5%);
     background-color: $rita-color;
-
+    padding: 0.5em;
 }
