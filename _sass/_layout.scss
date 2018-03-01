@@ -669,7 +669,7 @@ audio {
         color: #ffffff;
     }
     li {
-        padding: 0.5em;
+        margin-bottom: 15px;
        }
 }
 
@@ -687,5 +687,5 @@ audio {
     a {
         color: $rita-text-color;
     }
-    background-color: $rita-color;
+    background-color: darken($rita-color, 5%);
 }
