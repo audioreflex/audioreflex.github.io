@@ -661,12 +661,31 @@ audio {
 
 // artists custom colors
 
+.tour-list {
+    margin-left: 0;
+    list-style: none;
+    text-align: left;
+    a {
+        color: #ffffff;
+    }
+    li {
+        padding: 0.5em;
+       }
+}
+
+
 .ariel {
-    color: $ariel-color;
+    color: $ariel-text-color;
+    background-color: $ariel-color;
 }
 .claudia {
-    color: $claudia-color;
+    color: $claudia-text-color;
+    background-color: $claudia-color;
 }
 .rita {
-    color: $rita-color;
+    color: $rita-text-color;
+    a {
+        color: $rita-text-color;
+    }
+    background-color: $rita-color;
 }
