@@ -687,5 +687,7 @@ audio {
     a {
         color: $rita-text-color;
     }
-    background-color: darken($rita-color, 5%);
+    //background-color: darken($rita-color, 5%);
+    background-color: $rita-color;
+
 }
