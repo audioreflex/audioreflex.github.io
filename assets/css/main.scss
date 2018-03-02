@@ -11,10 +11,10 @@ $museuimigracao-red: #EE2D24;
 
 $ariel-color: #00738a;
 $ariel-text-color: #ffffff;
-$claudia-color: #cccccc;
+$claudia-color: darken(#b1b3b5, 30%);;
 $claudia-text-color: #ffffff;
 $rita-color: #ffec00;
-$rita-text-color: #ffffff;
+$rita-text-color: darken($rita-color, 40%);
 
 // Our variables
 $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -665,9 +665,6 @@ audio {
     margin-left: 0;
     list-style: none;
     text-align: left;
-    a {
-        color: #ffffff;
-    }
     li {
         margin-bottom: 15px;
         //padding: 1em;
@@ -678,16 +675,21 @@ audio {
 .ariel {
     color: $ariel-text-color;
     background-color: $ariel-color;
+    a {
+        color: $ariel-text-color;
+    }
 }
 .claudia {
     color: $claudia-text-color;
     background-color: $claudia-color;
+    a {
+        color: $ariel-text-color;
+    }
 }
 .rita {
     color: $rita-text-color;
+    background-color: $rita-color;
     a {
         color: $rita-text-color;
     }
-    //background-color: darken($rita-color, 5%);
-    background-color: $rita-color;
 }
