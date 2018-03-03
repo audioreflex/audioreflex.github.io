@@ -175,7 +175,7 @@
 
 .site-header {
   //min-height: 48px;
-  height: 96px;
+  height: 55px;
   #background-color: $brand-color;
   text-align: center;
 }
@@ -249,7 +249,7 @@
     
   }
   .site-header {
-    height: 64px;
+    height: 55px; // also defined earlier
   }
 }
 
@@ -301,7 +301,8 @@
  * Page content
  */
 .page-content {
-    padding: ($spacing-unit / 2) 0;
+    //padding: ($spacing-unit / 2) 0;
+    padding: 0;
 }
 
 .page-heading {
